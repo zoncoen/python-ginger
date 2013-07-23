@@ -1,6 +1,6 @@
 python-ginger
 =============
-Simple English grammar checker with ***unofficial*** Ginger API.
+Simple English grammar checker with ***unofficial*** [Ginger API](http://www.getginger.jp/).
 This grammar checker will fix grammar mistakes.
 
 How to use
