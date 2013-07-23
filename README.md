@@ -1,4 +1,4 @@
-python-Ginger
+python-ginger
 =============
 Simple English grammar checker with ***unofficial*** Ginger API.
 This grammar checker will fix grammar mistakes.
