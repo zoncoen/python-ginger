@@ -95,6 +95,9 @@ def get_ginger_result(text):
     except URLError as e:
             print("URL Error:", e.reason)
             quit()
+    except IOError, (errno, strerror):
+        print("I/O error (%s): %s" % (errno, strerror))
+        quit
 
     try:
         result = json.loads(response.read().decode('utf-8'))
